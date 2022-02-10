@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo -e ALL THESE WORLDS ARE YOURS --EXCEPT EUROPA\nATTEMPT NO LANDING THERE\nUSE THEM TOGETHER\nUSE THEM IN PEACE"
+          command: "echo -e \"ALL THESE WORLDS ARE YOURS --EXCEPT EUROPA\nATTEMPT NO LANDING THERE\nUSE THEM TOGETHER\nUSE THEM IN PEACE\""
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
